@@ -12,6 +12,7 @@ namespace trypazzle
 {
     public partial class Form1 : Form
     {
+        
         public Form1()
         {
             InitializeComponent();
@@ -30,7 +31,7 @@ namespace trypazzle
             this.picture88.AllowDrop = true; this.picture99.AllowDrop = true;
 
 
-
+           
 
 
         }
@@ -47,22 +48,13 @@ namespace trypazzle
             //объект-приемник 
             PictureBox receiver = (PictureBox)sender;
             //объект-источник
-            PictureBox source =
-                    (PictureBox)e.Data.GetData((typeof(PictureBox)));
+            PictureBox source =(PictureBox)e.Data.GetData((typeof(PictureBox)));
             //Temp - вспомогательная переменная для хранения изображения
             Image Temp = receiver.Image;
             //меняем картинки местами
             receiver.Image = source.Image;
             source.Image = Temp;
         }
-
-
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void picture1_Click(object sender, EventArgs e)
         {
 
@@ -71,16 +63,108 @@ namespace trypazzle
         private void picture11_Click(object sender, EventArgs e)
         {
 
+        }      
+        private void вийтиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+        private void перемешатьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            List<Bitmap> resources = new List<Bitmap>();
+            resources.Add(Properties.Resources.cut1);
+            resources.Add(Properties.Resources.cut2);
+            resources.Add(Properties.Resources.cut3);
+            resources.Add(Properties.Resources.cut4);
+            resources.Add(Properties.Resources.cut5);
+            resources.Add(Properties.Resources.cut6);
+            resources.Add(Properties.Resources.cut7);
+            resources.Add(Properties.Resources.cut8);
+            resources.Add(Properties.Resources.cut9);
+
+            resources = resources.OrderBy(a => Guid.NewGuid()).ToList();
+
+            for (int i = 0; i < resources.Count; i++)
+            {
+                picture1.Image = resources[0];
+                picture2.Image = resources[1];
+                picture3.Image = resources[2];
+                picture4.Image = resources[3];
+                picture5.Image = resources[4];
+                picture6.Image = resources[5];
+                picture7.Image = resources[6];
+                picture8.Image = resources[7];
+                picture9.Image = resources[8];
+            }
+
+
+        }
+        private void показатьОригиналToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            support supwindow = new support();
+            supwindow.ShowDialog();
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //початкове перемішуваненя при відкритті
+            //List<Bitmap> resources = new List<Bitmap>();
+          //  resources.Add(Properties.Resources.image_part_001);
+           // resources.Add(Properties.Resources.image_part_002);
+           // resources.Add(Properties.Resources.image_part_003);
+          //  resources.Add(Properties.Resources.image_part_004);
+          //  resources.Add(Properties.Resources.image_part_005);
+          //  resources.Add(Properties.Resources.image_part_006);
+          //  resources.Add(Properties.Resources.image_part_007);
+         //   resources.Add(Properties.Resources.image_part_008);
+         //   resources.Add(Properties.Resources.image_part_009);
+
+          ////  resources = resources.OrderBy(a => Guid.NewGuid()).ToList();
+
+          //  for (int i = 0; i < resources.Count; i++)
+          // / {
+           //     picture3.Image = resources[2];
+         //       picture5.Image = resources[4];
+         //       picture6.Image = resources[5];
+         //       picture7.Image = resources[6];
+         ////       picture8.Image = resources[7];
+             //   picture9.Image = resources[8];
+          //////  }
+            //https://stackoverflow.com/questions/39309076/loop-multiple-images-through-multiple-pictureboxes?noredirect=1&lq=1 взято отсюда
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            List<Bitmap> resources = new List<Bitmap>();
+            resources.Add(Properties.Resources.image_part_001);
+            resources.Add(Properties.Resources.image_part_002);
+            resources.Add(Properties.Resources.image_part_003);
+            resources.Add(Properties.Resources.image_part_004);
+            resources.Add(Properties.Resources.image_part_005);
+            resources.Add(Properties.Resources.image_part_006);
+            resources.Add(Properties.Resources.image_part_007);
+            resources.Add(Properties.Resources.image_part_008);
+            resources.Add(Properties.Resources.image_part_009);
 
-        }
+            resources = resources.OrderBy(a => Guid.NewGuid()).ToList();
 
-        private void вийтиToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Close();
+            for (int i = 0; i < resources.Count; i++)
+            {
+                picture1.Image = resources[0];
+                picture2.Image = resources[1];
+                picture3.Image = resources[2];
+                picture4.Image = resources[3];
+                picture5.Image = resources[4];
+                picture6.Image = resources[5];
+                picture7.Image = resources[6];
+                picture8.Image = resources[7];
+                picture9.Image = resources[8];
+            }
         }
     }
 }

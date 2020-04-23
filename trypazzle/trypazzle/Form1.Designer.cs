@@ -54,6 +54,7 @@
             this.перемешатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.показатьОригиналToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.вийтиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picture9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture8)).BeginInit();
@@ -104,7 +105,6 @@
             // 
             // picture9
             // 
-            this.picture9.Image = global::trypazzle.Properties.Resources.image_part_009;
             this.picture9.InitialImage = null;
             this.picture9.Location = new System.Drawing.Point(266, 266);
             this.picture9.Margin = new System.Windows.Forms.Padding(0);
@@ -120,7 +120,6 @@
             // picture8
             // 
             this.picture8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picture8.Image = global::trypazzle.Properties.Resources.image_part_008;
             this.picture8.InitialImage = null;
             this.picture8.Location = new System.Drawing.Point(134, 266);
             this.picture8.Margin = new System.Windows.Forms.Padding(0);
@@ -136,7 +135,6 @@
             // picture7
             // 
             this.picture7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picture7.Image = global::trypazzle.Properties.Resources.image_part_007;
             this.picture7.InitialImage = null;
             this.picture7.Location = new System.Drawing.Point(2, 266);
             this.picture7.Margin = new System.Windows.Forms.Padding(0);
@@ -152,7 +150,6 @@
             // picture6
             // 
             this.picture6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picture6.Image = global::trypazzle.Properties.Resources.image_part_006;
             this.picture6.InitialImage = null;
             this.picture6.Location = new System.Drawing.Point(266, 134);
             this.picture6.Margin = new System.Windows.Forms.Padding(0);
@@ -168,7 +165,6 @@
             // picture5
             // 
             this.picture5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picture5.Image = global::trypazzle.Properties.Resources.image_part_005;
             this.picture5.InitialImage = null;
             this.picture5.Location = new System.Drawing.Point(134, 134);
             this.picture5.Margin = new System.Windows.Forms.Padding(0);
@@ -184,7 +180,6 @@
             // picture4
             // 
             this.picture4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picture4.Image = global::trypazzle.Properties.Resources.image_part_004;
             this.picture4.InitialImage = null;
             this.picture4.Location = new System.Drawing.Point(2, 134);
             this.picture4.Margin = new System.Windows.Forms.Padding(0);
@@ -200,7 +195,6 @@
             // picture3
             // 
             this.picture3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picture3.Image = global::trypazzle.Properties.Resources.image_part_003;
             this.picture3.InitialImage = null;
             this.picture3.Location = new System.Drawing.Point(266, 2);
             this.picture3.Margin = new System.Windows.Forms.Padding(0);
@@ -216,7 +210,6 @@
             // picture2
             // 
             this.picture2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picture2.Image = global::trypazzle.Properties.Resources.image_part_002;
             this.picture2.InitialImage = null;
             this.picture2.Location = new System.Drawing.Point(134, 2);
             this.picture2.Margin = new System.Windows.Forms.Padding(0);
@@ -233,7 +226,6 @@
             // 
             this.picture1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.picture1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picture1.Image = global::trypazzle.Properties.Resources.image_part_001;
             this.picture1.InitialImage = null;
             this.picture1.Location = new System.Drawing.Point(2, 2);
             this.picture1.Margin = new System.Windows.Forms.Padding(0);
@@ -402,14 +394,16 @@
             // menuStrip1
             // 
             this.menuStrip1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.Menu;
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.менюToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(536, 9);
+            this.menuStrip1.Location = new System.Drawing.Point(566, 29);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(61, 24);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // менюToolStripMenuItem
             // 
@@ -426,12 +420,14 @@
             this.перемешатьToolStripMenuItem.Name = "перемешатьToolStripMenuItem";
             this.перемешатьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.перемешатьToolStripMenuItem.Text = "Перемешать";
+            this.перемешатьToolStripMenuItem.Click += new System.EventHandler(this.перемешатьToolStripMenuItem_Click);
             // 
             // показатьОригиналToolStripMenuItem
             // 
             this.показатьОригиналToolStripMenuItem.Name = "показатьОригиналToolStripMenuItem";
             this.показатьОригиналToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.показатьОригиналToolStripMenuItem.Text = "Показать оригинал";
+            this.показатьОригиналToolStripMenuItem.Click += new System.EventHandler(this.показатьОригиналToolStripMenuItem_Click);
             // 
             // вийтиToolStripMenuItem
             // 
@@ -440,12 +436,22 @@
             this.вийтиToolStripMenuItem.Text = "Вийти";
             this.вийтиToolStripMenuItem.Click += new System.EventHandler(this.вийтиToolStripMenuItem_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(530, 308);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(123, 28);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "start game";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.Desktop;
-            this.ClientSize = new System.Drawing.Size(1179, 600);
+            this.ClientSize = new System.Drawing.Size(1182, 411);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.menuStrip1);
@@ -453,6 +459,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Puzzle game";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picture9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture8)).EndInit();
@@ -507,6 +514,7 @@
         private System.Windows.Forms.ToolStripMenuItem перемешатьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem показатьОригиналToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem вийтиToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -69,6 +69,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="support.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="support.Designer.cs">
+      <DependentUpon>support.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -82,6 +88,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="support.resx">
+      <DependentUpon>support.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -111,9 +120,6 @@
     <None Include="Resources\image_part_001.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Image1.bmp" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\image_part_002.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -136,6 +142,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image_part_009.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\картинка под пазл1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut9.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

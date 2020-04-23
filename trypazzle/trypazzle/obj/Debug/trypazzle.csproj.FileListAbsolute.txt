@@ -16,3 +16,4 @@ C:\Users\User\Desktop\курсач\trypazzle\trypazzle\obj\Debug\trypazzle.Prope
 C:\Users\User\Desktop\курсач\trypazzle\trypazzle\obj\Debug\trypazzle.csproj.GenerateResource.cache
 C:\Users\User\Desktop\курсач\trypazzle\trypazzle\obj\Debug\trypazzle.exe
 C:\Users\User\Desktop\курсач\trypazzle\trypazzle\obj\Debug\trypazzle.pdb
+C:\Users\User\Desktop\курсач\trypazzle\trypazzle\obj\Debug\trypazzle.support.resources
