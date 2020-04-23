@@ -47,6 +47,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>page.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>trypazzle.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -172,6 +178,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cut9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wi-fi_page1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wi-fi_page2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wi-fi_page3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wi-fi_page4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wi-fi_page5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wi-fi_page6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wi-fi_page7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wi-fi_page8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wi-fi_page9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Resize-5R4kBm3ShA4Bt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="page.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

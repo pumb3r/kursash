@@ -148,31 +148,34 @@
   <data name="картинка под пазл1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\картинка под пазл1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cut1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cut1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="imgonline_com_ua_Resize_5R4kBm3ShA4Bt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgonline-com-ua-Resize-5R4kBm3ShA4Bt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cut2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cut2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wi_fi_page1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wi-fi_page1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cut3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cut3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wi_fi_page2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wi-fi_page2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cut4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cut4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wi_fi_page3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wi-fi_page3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cut5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cut5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wi_fi_page4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wi-fi_page4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cut6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cut6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wi_fi_page5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wi-fi_page5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cut7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cut7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wi_fi_page6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wi-fi_page6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cut8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cut8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wi_fi_page7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wi-fi_page7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cut9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cut9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wi_fi_page8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wi-fi_page8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wi_fi_page9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wi-fi_page9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
